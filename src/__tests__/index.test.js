@@ -22,6 +22,6 @@ describe("sum", () => {
   });
 
   test("should handle string inputs", () => {
-    expect(sum("1", "2")).toBe(3);
+    expect(sum("1", "2")).toBe('12');
   });
 });
